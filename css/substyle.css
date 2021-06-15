@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+.inner {
+    width: 1140px;
+    margin: 0 auto
+}
+
+html {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 10px
+}
+
+.wrap {
+    width: 100%;
+    height: 1300px;
+    background-color: black;
+    margin: 0 auto;
+    margin: 0 auto
+}
+
+table {
+    border-spacing: 0px;
+    color: white;
+    border-color: white;
+    font-size: 1.5rem
+}
+
+/*헤더*/
+.logo {
+    text-align: center;
+    padding-top: 20px
+}
+
+.inner {
+    color: white
+}
+
+.contents1 > h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 50px 0
+}
+
+.table > table:nth-child(1) {
+    float: left;
+    width: 46%
+}
+
+.table > table:nth-child(2) {
+    float: right;
+    width: 46%
+}
+
+/*=============================================*/
+td,
+th {
+    border-color: white;
+    text-align: center;
+    height: 40px
+}
+
+td:nth-child(1) {
+    border: 0
+}
+
+td:nth-child(2) {
+    border-top: 0;
+    border-bottom: 0
+}
+
+td:nth-child(3) {
+    border: 0
+}
+
+th:nth-child(1) {
+    text-align: center;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0
+}
+
+th:nth-child(2) {
+    border-top: 0
+}
+
+th:nth-child(3) {
+    ;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0
+}
+
+table {
+    border-left: none;
+    border-right: none
+}
+
+/*=============================================*/
+.table:after {
+    display: block;
+    content: "";
+    clear: both
+}
+
+.text {
+    padding: 50px 0;
+    font-size: 1.5rem
+}
+
+.text > p {
+    position: relative;
+    padding: 5px 0 5px 70px;
+}
+
+.text > p > span {
+    display: block;
+    background-color: pink;
+    width: 60px;
+    height: 25px;
+    border-radius: 50px;
+    position: absolute;
+    text-align: center;
+    line-height: 25px;
+    color: black;
+    left: 0
+}
+
+.contents2 > h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 50px 0
+}
+
+.contents2 > ul {
+    padding-left: 20px;
+    font-size: 1.5rem
+}
+
+.contents2 > ul > li > span {
+    color: pink
+}
+
+.fieldset1 {
+    margin: 50px 0;
+    padding: 20px 0;
+    border: 1px solid white;
+    font-size: 1.5rem
+}
+
+.fieldset1 > p {
+    float: left;
+    width: 33.33%;
+    text-align: center
+}
+
+
+.fieldset1 > p > input[type=text] {
+    width: 50px;
+    margin-left: 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50px;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 1.5rem
+}
+
+.fieldset1 > p > input[type=button] {
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    color: white;
+    vertical-align: middle;
+    margin-left: 5px;
+    border: 1px solid white;
+}
+
+.fieldset1 > p > input[type=button]:hover {
+    background-color: #8d8d8d;
+    cursor: pointer
+}
+
+.fieldset2 {
+    text-align: right;
+    font-size: 1.5rem
+}
+
+.fieldset2 > p {
+    padding: 5px 0;
+    position: relative
+}
+
+.fieldset2 > p > span {
+    display: block;
+    position: absolute;
+    border-bottom: 1px solid white;
+    width: 100px;
+    bottom: 6px;
+    right: 70px
+}
+
+.fieldset2 > p:nth-child(3) > input[type=radio] {
+    vertical-align: middle
+}
+
+.contents2 > h2 {
+    text-align: center;
+    background-color: pink;
+    width: 150px;
+    height: 35px;
+    font-size: 2.5rem;
+    color: black;
+    border-radius: 50px;
+    margin: 50px auto 0;
+    line-height: 35px
+}
+
+.contents2 > h2 > a {
+    text-decoration: none;
+    color: black
+}
+
+.contents2 > h2:hover {
+    background-color: #8e002f;
+    cursor: pointer
+}
+
+/*===================================*/
+
+.sub_wrap {
+    width: 100%;
+    height: 1000px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem
+}
+
+.sub_wrap > .inner > i {display: block}
+
+.sub_wrap > .inner > div {
+    padding-top: 50px
+}
+
+.sub_wrap > div > div > input[type=text] {
+    width: 60px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem
+}
+
+.sub_wrap > div > div > input[type=button] {
+    margin-left: 15px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 50px;
+    cursor: pointer;
+    font-size: 1.5rem
+}
+
+.sub_wrap > div > div > input[type=button]:hover {
+    background-color: #8d8d8d
+}
+
+.sub_wrap > .inner > p {
+    padding-top: 50px
+}
+
+@media (max-width: 1199px) {
+    .inner{width: 98%}
+}
+
+@media (max-width: 510px) {
+    .fieldset1 > p {
+        width: 100%; padding: 20px 0
+    }
+    .wrap {
+        height: 1600px
+    }
+}
